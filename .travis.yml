@@ -8,8 +8,8 @@ install:
 after_success:
   - npm run coverage
   
-  script:"true"
+script:"true"
   
-  cache:
-    directories:
-      - "node_modules"
+cache:
+   directories:
+     - "node_modules"
